@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_module">
+    <sys_module action="INSERT_OR_UPDATE">
+        <content><![CDATA[import { gs } from '@servicenow/glide'
+
+export const showStatusUpdate = function (newStatus, oldStatus) {
+    gs.addInfoMessage(`Record updated. Old Status: ${oldStatus}`)
+    gs.addInfoMessage(`New Status: ${newStatus}`)
+}
+]]></content>
+        <external_source>false</external_source>
+        <path>x_712612_test2/test-create-app/0.0.1/src/myfunction.js</path>
+        <sys_class_name>sys_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-08 17:16:59</sys_created_on>
+        <sys_id>ad56baa493508210e1153f6efaba109b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_712612_test2/test-create-app/0.0.1/src/myfunction.js</sys_name>
+        <sys_package display_value="test-create-app" source="x_712612_test2">2246f62093508210e1153f6efaba10b8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="test-create-app">2246f62093508210e1153f6efaba10b8</sys_scope>
+        <sys_update_name>sys_module_ad56baa493508210e1153f6efaba109b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-08 17:16:59</sys_updated_on>
+    </sys_module>
+</record_update>
